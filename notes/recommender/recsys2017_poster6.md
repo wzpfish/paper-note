@@ -31,7 +31,7 @@ AotM-2011 & 8tracks
 
 ### Result
 
-![](https://github.com/wzpfish/paper-note/blob/master/figures/recommender/recsys2017_poster6.png)
+<img src="/figures/recommender/recsys2017_poster6.png" alt="" width="700px" height="500px">
 
 如图第一列所示，RNN和song popularity的效果居然差不多。。CF的效果比random略微好一点点。
 
