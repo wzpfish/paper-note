@@ -20,7 +20,7 @@
 
 ### Result
 
-<img src="/figures/recommender/recsys2017_poster17.png" alt="" width="700px" height="500px">
+<img src="/figures/recommender/recsys2017_poster17.jpg" alt="" width="700px" height="500px">
 
 如图所示，纵坐标表示explore音乐相比于exploit音乐，用户推出session增加的概率（x100）。可见无论context是什么，explore的音乐都更可能让用户退出。在Ad, Song, Ad的context下，甚至高了531.13%。但是在SAA的context下，高的不多。
 
