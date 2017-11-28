@@ -1,6 +1,6 @@
 # The Importance of Song Context in Music Playlists
 
-## 论文内容
+##论文内容
 
 ###What
 
@@ -31,7 +31,7 @@ AotM-2011 & 8tracks
 
 ###Result
 
-![](https://github.com/wzpfish/paper-note/figures/recommender/recsys2017_poster6.png)
+![](https://github.com/wzpfish/paper-note/blob/master/figures/recommender/recsys2017_poster6.png)
 
 如图第一列所示，RNN和song popularity的效果居然差不多。。CF的效果比random略微好一点点。
 
@@ -56,7 +56,7 @@ Song context如何影响music playlist generation结果？
 
 
 
+原文: [The Importance of Song Context in Music Playlists](http://ceur-ws.org/Vol-1905/recsys2017_poster6.pdf)
 
 
-原文链接: [The Importance of Song Context in Music Playlists](http://ceur-ws.org/Vol-1905/recsys2017_poster6.pdf)
 
