@@ -10,3 +10,4 @@ A collection of my notes and thinking for read papers.
 ## NLP
 
 * [word2vec](/notes/nlp/word2vec.md)
+* [doc2vec](/notes/nlp/doc2vec.md)
