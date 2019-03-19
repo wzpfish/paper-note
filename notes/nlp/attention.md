@@ -52,6 +52,6 @@ attention 向量计算方式 | 用 encoder 的所有 hidden | 用 encoder 的所
 attetion 向量使用方式 | 与 decoder 当前层的 input 拼接在一起，作为神经元的输入 | 得到 decoder 当前层的 hidden 之后，与 attention 向量拼接在一起，来预测输出词的概率。| 同 global attention 
 
 ## 4 Reference
-* [Neural Machine Translation by Jointly Learning to Align and Translate]([https://arxiv.org/pdf/1405.4053.pdf](https://arxiv.org/pdf/1409.0473.pdf))
+* [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473.pdf)
 * [Effective Approaches to Attention-based Neural Machine Translation](http://aclweb.org/anthology/D15-1166)
 * [Practical PyTorch: Translation with a Sequence to Sequence Network and Attention](https://github.com/spro/practical-pytorch/blob/master/seq2seq-translation/seq2seq-translation.ipynb)
