@@ -13,3 +13,6 @@ A collection of my notes and thinking for read papers.
 * [doc2vec](/notes/nlp/doc2vec.md)
 * [gru](/notes/nlp/gru.md)
 * [attention](/notes/nlp/attention.md)
+
+## Pytorch
+* [autograd](/notes/pytorch/autograd.md)
