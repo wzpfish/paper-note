@@ -15,6 +15,6 @@ A collection of my notes and thinking for read papers.
 * [attention](/notes/nlp/attention.md)
 * [transformer](/notes/nlp/transformer.md)
 * [batch-normalization](https://nbviewer.jupyter.org/github/wzpfish/paper-note/blob/master/notes/nlp/batch_normalization.ipynb)
-
+* [layer-normalization](https://nbviewer.jupyter.org/github/wzpfish/paper-note/blob/master/notes/nlp/layer_normalization.ipynb)
 ## Pytorch
 * [autograd](/notes/pytorch/autograd.md)
