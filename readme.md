@@ -14,6 +14,7 @@ A collection of my notes and thinking for read papers.
 * [gru](/notes/nlp/gru.md)
 * [attention](/notes/nlp/attention.md)
 * [transformer](/notes/nlp/transformer.md)
+* [transformer-notebook](https://nbviewer.jupyter.org/github/wzpfish/paper-note/blob/master/notes/nlp/transformer.ipynb)
 * [batch-normalization](https://nbviewer.jupyter.org/github/wzpfish/paper-note/blob/master/notes/nlp/batch_normalization.ipynb)
 * [layer-normalization](https://nbviewer.jupyter.org/github/wzpfish/paper-note/blob/master/notes/nlp/layer_normalization.ipynb)
 * [beam-search](https://nbviewer.jupyter.org/github/wzpfish/paper-note/blob/master/notes/nlp/beam_search.ipynb)
