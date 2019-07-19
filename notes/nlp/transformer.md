@@ -49,6 +49,9 @@ encoder 是由6个 layer stack 在一起的，其中每个 layer 又包含了 mu
 ## decoder
 decoder 也是由6个 layer stack 一起，其中每个 layer 和 encoder 的比，多了一层 multi-head attention，这层 attention 利用了 encoder 的结果。即 query 是 decoder 上一层的输出，key 和 value 是 encoder 的最终输出。其他的基本上一样。
 
+# Transformer 实现
+由于实现比较复杂，另写了个 notebook 记录了一下：[transormer 实现](https://nbviewer.jupyter.org/github/wzpfish/paper-note/blob/master/notes/nlp/transformer.ipynb)
+
 # 总结
 这里只是 high-level 的介绍了各个模型结构，具体公式细节以及模型实现，可以细细品味。我觉得这个文章最值得学习的点有几个：
 1. positional encoding 来弥补非 rnn cnn 结构丢失位置信息的缺点，是不是普通的全连接网络也可以加入这个信息。
