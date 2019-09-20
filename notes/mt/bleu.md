@@ -1,6 +1,6 @@
 # BLEU
 
-BLEU(bilingual evaluation understudy) 是一种评估双语翻译质量的评价指标。该评价指标的基础思想是，**一个机器翻译的结果越接近专业人工翻译的结果越好**。这种评价标准是一种 reference-based metrics.
+BLEU(bilingual evaluation understudy) 是 IBM 于2002年提出的一种评估双语翻译质量的评价指标。该评价指标的基础思想是，**一个机器翻译的结果越接近专业人工翻译的结果越好**。这种评价标准是一种 reference-based metrics.
 
 因此，该指标有两个重要组成部分：
 1. reference: 即高质量的人工翻译语料。
