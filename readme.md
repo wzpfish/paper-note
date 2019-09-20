@@ -18,5 +18,10 @@ A collection of my notes and thinking for read papers.
 * [batch-normalization](https://nbviewer.jupyter.org/github/wzpfish/paper-note/blob/master/notes/nlp/batch_normalization.ipynb)
 * [layer-normalization](https://nbviewer.jupyter.org/github/wzpfish/paper-note/blob/master/notes/nlp/layer_normalization.ipynb)
 * [beam-search](https://nbviewer.jupyter.org/github/wzpfish/paper-note/blob/master/notes/nlp/beam_search.ipynb)
+
+## Machine Translation
+* [BLEU](/notes/mt/bleu.md)
+
+
 ## Pytorch
 * [autograd](/notes/pytorch/autograd.md)
