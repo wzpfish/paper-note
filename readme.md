@@ -23,6 +23,7 @@ A collection of my notes and thinking for read papers.
 * [BLEU](/notes/mt/bleu.md)
 * [METEOR](/notes/mt/meteor.md)
 * [ ] [NIST](http://www.mt-archive.info/HLT-2002-Doddington.pdf)
+* [ ] [Sampling of decoder](https://arxiv.org/pdf/1904.09751.pdf) 
 
 ## Article Commenting
 * [Automatic Article Commenting: the Task and Dataset](/notes/article_commenting/automatic_article_commenting.md)
