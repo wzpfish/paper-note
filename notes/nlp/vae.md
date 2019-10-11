@@ -16,7 +16,7 @@ variational autoencoder 是一种 autoencoder。它和一般的 autoencoder 不�
 上面的推导假设 p(x|z) 服从正太分布，如果服从伯努利分布会怎么样呢？就是 decoder 预测的不是均值和方差，只是一个均值罢了，然后 loss 把伯努利分布的概率公式填进去即可。
 
 ## generative
-在生成阶段，如何生成新的 samples 呢？我们只需要 sample 一个 z ~ N(0, I)，然后喂给 decoder 即可。这里我的理解是由于我们在 train 的时候，使得 q(z|x) 尽可能贴近 N(0, I) 了，所以从 N(0, I) 中 sample 出来的变量也可以很好地还原出样本。
+在生成阶段，如何生成新的 samples 呢？我们只需要 sample 一个 z ~ N(0, I)，然后喂给 decoder 即可。为什么这么做可以呢？因为 N(0, I) 是 z 的先验分布，在没有任何额外信息的情况下，我们就从先验分布中 sample 一个实例 z，然后用 z 来生成新的样本即可。~~这里我的理解是由于我们在 train 的时候，使得 q(z|x) 尽可能贴近 N(0, I) 了，所以从 N(0, I) 中 sample 出来的变量也可以很好地还原出样本。~~
 
 ## tensorflow 实现
 
