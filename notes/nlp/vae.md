@@ -22,6 +22,12 @@ variational autoencoder 是一种 autoencoder。它和一般的 autoencoder 不�
 
 [代码在这里](/codes/vae)
 
+## 一些问题
+### 1. KL vanishing
+在实际训练时会发现，EBLO 中的 KL term 会迅速下降到0，即 z 的后验概率 q(z|x) 很接近 p(z)。这是我们不想看到的，因为我们希望 z 能更多地表示输入信息，而不是没有任何信息量的先验。
+
+Reference 4中提出了一个方法叫 KL cost annealing。意思是在训练的时候，一开始把 KL term 的权重设为0，使得 z 能够不受任何约束地学习 x 中的信息；然后随着训练的进行，慢慢增加权重到1，使得 z 受到约束，控制 z 在某一个向量空间内，而不是随意分布的。
+
 ## 总结
 感觉这个 VAE 真的是很巧妙的结合了变分推断和神经网络，值得细细品味。。
 
@@ -29,3 +35,4 @@ variational autoencoder 是一种 autoencoder。它和一般的 autoencoder 不�
 * [VAE viedo course](https://www.youtube.com/watch?v=uaaqyVS9-rM)
 * [Auto-Encoding Variational Bayes](https://arxiv.org/pdf/1312.6114.pdf)
 * [Tutorial on Variational Autoencoders](https://arxiv.org/pdf/1606.05908.pdf)
+* [Generating Sentences from a Continuous Space](https://arxiv.org/pdf/1511.06349.pdf)
