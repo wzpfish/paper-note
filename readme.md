@@ -28,5 +28,9 @@ A collection of my notes and thinking for read papers.
 
 ## Article Commenting
 * [Automatic Article Commenting: the Task and Dataset](/notes/article_commenting/automatic_article_commenting.md)
+
+## Sampling
+* [MCMC](https://nbviewer.jupyter.org/github/wzpfish/paper-note/blob/master/notes/sampling/mcmc.ipynb)
+
 ## Pytorch
 * [autograd](/notes/pytorch/autograd.md)
