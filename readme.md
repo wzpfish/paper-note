@@ -33,5 +33,7 @@ A collection of my notes and thinking for read papers.
 ## Sampling
 * [MCMC](https://nbviewer.jupyter.org/github/wzpfish/paper-note/blob/master/notes/sampling/mcmc.ipynb)
 
+## Candidate Sampling
+* [Sampled Softmax](/notes/candidate_sampling/sampled_softmax.md)
 ## Pytorch
 * [autograd](/notes/pytorch/autograd.md)
