@@ -35,5 +35,6 @@ A collection of my notes and thinking for read papers.
 
 ## Candidate Sampling
 * [Sampled Softmax](/notes/candidate_sampling/sampled_softmax.md)
+* [Noise Contrastive Estimation](/notes/candidate_sampling/nce.md)
 ## Pytorch
 * [autograd](/notes/pytorch/autograd.md)
